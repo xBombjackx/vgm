@@ -75,6 +75,11 @@ To use this in a modern production without it sounding like a caricature, focus 
 *   **The Technique:** Kondo uses a variation of the Royal Road logic. The B section of the theme swings comfortably between **Subdominant (IV)** and **Dominant (V)** functionality, avoiding the Tonic for long stretches.
 *   **Why it Works:** This constant harmonic "hovering" is what allows the track to loop hundreds of times without annoying the player. It never fully "lands" until the player reaches the flag pole.
 
+### **The Workshop: Walking the Road**
+
+*   **Technical Challenge (Programmer):** In your tracker or DAW, program a 60Hz arpeggio command (0xy) to play a **Major 7th chord** on a single monophonic channel. This replicates the hardware "hack" used to play complex fusion chords on limited voices.
+*   **Artistic Challenge (Composer):** **The Royal Loop.** Write an 8-bar loop using only the **IV∆7–V–iii–vi** progression. **Constraint:** The loop must repeat 10 times. You must vary the melody in each pass—moving from simple motifs to complex variations—to keep the listener engaged without ever changing the underlying chords. **The Vibe:** Write this for a hero looking out over a vast, unexplored continent from a high cliff.
+
 ### **References**
 *   HueSteus. (2022). *My Favorite Video Game Songs #37 – The Royal Road Chord Progression*. WordPress.
 *   Madden, S. (2025). *Japan's favourite chord progression and why it works*. YouTube.

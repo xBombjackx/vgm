@@ -18,6 +18,9 @@ For the modern producer, the Genesis represents the "Holy Grail" of 16-bit sound
 The YM2612 utilizes **Frequency Modulation (FM) synthesis**. Unlike the subtractive synthesis used in most analog gear (where you start with a rich waveform and filter it down), FM synthesis creates complex timbres by modulating the frequency of one oscillator (the **Carrier**) with another (the **Modulator**) at audio rates (Yamaha, 2021).
 
 The chip offers six channels of polyphony. Each channel is comprised of four **Operators** (oscillators). These operators can be arranged in eight different configurations called **Algorithms**.
+
+<!-- FIGURE: A visual comparison of Algorithm 2 (Stack) vs. Algorithm 7 (Parallel). Show the modulators vertically feeding into the carrier for Alg 2, and all four operators outputting sound horizontally for Alg 7. -->
+
 *   **Stacked Algorithms (e.g., Algorithms 1–4):** Modulators feeding into modulators in a vertical column. This is the engine of "Genesis Grit." For example, **Algorithm 2** is a favorite for deep, aggressive bass because the stack of three modulators allows for high-index modulation of the carrier, resulting in a harmonically dense, "squelchy" tone similar to an analog synthesizer.
 *   **Parallel Algorithms (e.g., Algorithm 7):** All four operators outputting sound directly as carriers. This effectively turns the channel into a 4-voice additive organ, perfect for lush pads or bright, clean electric pianos where harmonic clarity is prioritized over modulation noise.
 
@@ -79,10 +82,15 @@ However, the YM2612 had no memory buffer for this. The main CPU (the Motorola 68
 *   **The Patch:** The lead melody isn't a simple square wave; it's a complex FM bell/organ hybrid.
 *   **The Technique:** Nakamura utilizes the stereo panning capabilities of the YM2612 to make the track feel wide and fast. The drums, however, are PCM samples played through the DAC channel. Notice how the drums are lo-fi (low sample rate) to save CPU for the high-speed scrolling graphics.
 
+### **The Workshop: Forging the FM Sound**
+
+*   **Technical Challenge (Programmer):** **The FM Architect.** Using an FM VST (like Genny), program a **"Metallic Bell"** using **Algorithm 4**. **Constraint:** Use a frequency ratio of **3.5:1** between your Modulator and Carrier to achieve the necessary inharmonic "clang." Focus on the **Feedback** control to add "Grit" and the envelope decay to create the "ring."
+*   **Artistic Challenge (Composer):** **Metallic Loneliness.** Compose a 30-second sci-fi or "underground" loop. **Constraint:** You must use only **two operators** per channel. Focus on using non-harmonic intervals to create a cold, industrial atmosphere that feels intentionally "hollow" and isolated. **The Vibe:** Write this for a character standing alone in a rain-slicked neon alleyway.
+
 ### **References**
 *   Aly James Lab. (2013). *YM2612 "LADDER EFFECT"*.
 *   Aly James Lab. (2025). *SEGA FM DRIVE TECH MANUAL*.
 *   MegaDrive Wiki. (2025). *YM2612*.
 *   Plogue. (2025). *chipsynth MD*.
 *   SpritesMind. (2025). *GENNY VST - V1.5 New Release May 2025*.
-*   Yamaha. (2021). *YM2612: The chip that powered music on the Mega Drive*.
+*   Yamaha. (2021). *YM2612: The chip that powered music on the Sega Genesis (Mega Drive)*.

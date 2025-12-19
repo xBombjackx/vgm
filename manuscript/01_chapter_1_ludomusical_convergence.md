@@ -59,6 +59,11 @@ We are not here to simply reminisce about how great *Chrono Trigger* sounded. We
 
 Welcome to the convergence of pixel and progression.
 
+### **The Workshop: The Architect's First Step**
+
+*   **Technical Challenge (Programmer):** Setup a "Hardware Limitation" template in your DAW or Tracker. Create exactly 3 monophonic pulse-wave tracks and 1 noise channel. **Constraint:** You are forbidden from using any external plugins like reverb, delay, or compression. 
+*   **Artistic Challenge (Composer):** **The Minimalism Challenge.** Write a 15-second "Start Screen" theme. **Constraint:** You are limited to a 3-note melody. You must create interest through rhythm and Pulse-Width changes rather than adding new notes. **The Vibe:** Imagine the first flicker of power in a long-dormant laboratory. Can you make it feel "Optimistic" with such limited data?
+
 ### **References**
 *   Collins, K. (2008). *Game Sound: An Introduction to the History, Theory, and Practice of Video Game Music and Sound Design*. MIT Press.
 *   Phillips, W. (2014). *A Composer's Guide to Game Music*. MIT Press.

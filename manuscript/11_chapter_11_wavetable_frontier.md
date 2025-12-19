@@ -45,6 +45,11 @@ To emulate the unique character of these wavetable chips, you need tools that of
 
 By embracing the direct waveform manipulation these chips offered, you can unlock a universe of unique timbres and truly sculpt the sound of your retro-inspired compositions.
 
+### **The Workshop: Sculpting the Waveform**
+
+*   **Technical Challenge (Programmer):** Automate the **Wave Position** in a modern wavetable synth (like Serum or Vital) to create a **"Brass Growl"** that changes its timbre over the course of a single sustained note.
+*   **Artistic Challenge (Composer):** **The Digital Organ.** Compose a lush, sacred-sounding texture. **Constraint:** You must use **5 channels** of custom-drawn waveforms. Each channel must be tuned to a different octave to create a massive, pipe-organ-like sound characteristic of the MSX SCC. **The Vibe:** Write this for a character praying in a cathedral made of chrome and fiber-optics.
+
 ### **References**
 *   Copetti, R. (2025). *PC Engine / TurboGrafx-16 Architecture | A Practical Analysis*. Retrieved from https://www.copetti.org/writings/consoles/pc-engine/
 *   Furnace. (2025). *Furnace - the chiptune tracker*. Retrieved from https://tildearrow.org/furnace/

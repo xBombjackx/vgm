@@ -26,6 +26,18 @@ A Tracker song is organized into **Patterns** (blocks of music) and a **Playlist
 >
 > Think of a Tracker as a **musical spreadsheet**. Each row is a 16th note. Each column is an instrument. You aren't "coding"; you're just typing notes into cells.
 
+#### **DAW-to-Tracker Rosetta Stone**
+
+| DAW Term | Tracker Equivalent | Description |
+| :--- | :--- | :--- |
+| Piano Roll / Clip | **Pattern** | A block of music data (e.g., 64 rows). |
+| Playlist / Arrangement | **Order List** | The sequence in which patterns play. |
+| Velocity | **Volume Column** | Hex value (`00-40`) determining loudness. |
+| Automation Lane | **Effect Column** | Text commands (e.g., `3xx`) for pitch/filter. |
+| MIDI Note | **Note Column** | Specific pitch (e.g., `C-4`) and instrument ID. |
+
+<!-- FIGURE: A labeled screenshot of a Tracker Pattern Editor (Furnace or DefleMask). Highlight and label the Note, Instrument, Volume, and Effect columns to illustrate the 'Spreadsheet' analogy. -->
+
 The grid is divided into **Channels** (columns) corresponding to the hardware's voices (e.g., Pulse 1, Pulse 2, Wave, Noise). Each channel is further split into specific sub-columns:
 
 1.  **Note:** The pitch (e.g., `C-4`, `F#5`). A dash (`---`) usually means "do nothing," while a specific key-off symbol (like `===` or `OFF`) stops the sound.
@@ -97,6 +109,11 @@ For the modern user, two multi-system trackers dominate the landscape.
 #### **The Legacy Standard: DefleMask**
 *   **Status:** Closed-source, paid (mobile), slower updates.
 *   **Why use it:** It remains the best option for **Mobile** composition (iOS/Android) (Delek, 2025). If you want to track on an iPad, DefleMask is the professional choice. On desktop, it is still powerful but has largely been superseded by Furnace's feature set.
+
+### **The Workshop: Coding the Composition**
+
+*   **Technical Challenge (Programmer):** **Hex Mastery.** Use the **`047`** (Major Arpeggio) command in your tracker to turn a single-note lead into a chord. Use the **`3xx`** (Portamento) command to slide between two different chords.
+*   **Artistic Challenge (Composer):** **Vertical Composition.** Write a funky 4-bar loop. **Constraint:** You are **forbidden from snapping notes** exactly to the grid. You must use the **Note Delay (EDx)** command to manually "swing" your melody, creating a humanized rhythm through vertical code. **The Vibe:** Imagine a smooth, street-smart character walking through a jazz club in a cybernetic future.
 
 ### **References**
 *   Delek. (2025). *DefleMask Mobile on the App Store*. Retrieved from https://apps.apple.com/nz/app/deflemask-mobile/id1390797126

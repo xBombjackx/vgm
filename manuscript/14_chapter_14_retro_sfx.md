@@ -29,6 +29,11 @@ A defining characteristic of 8-bit audio is **Channel Interruption**.
 *   **Your Synth:** Any subtractive synth (like Ableton's Analog) can do this.
     *   *Recipe for "Coin Sound":* Oscillator 1 (Sine) -> Pitch Envelope (Fast Up) -> Amp Envelope (Short Decay) -> High chime (B5 -> E6).
 
+### **The Workshop: Synthesizing the Action**
+
+*   **Technical Challenge (Programmer):** **The Synthetic Explosion.** Use a **noise generator** in your DAW to create an "Explosion" sound. Use only a Volume Envelope (Fast Attack, Long Release) and an automated Low-Pass Filter.
+*   **Artistic Challenge (Composer):** **The Character's Voice.** Create three distinct **"Dialogue Bleeps"** (the sound that plays during a text box) for a specific character. **Constraint:** One must sound **Joyful**, one **Angry**, and one **Confused**, using only pitch contour and playback speed to convey the emotion. **The Vibe:** Imagine a small, boxy robot trying to communicate with its last surviving batteries.
+
 ### **References**
 *   DrPetter. (2025). *sfxr*. Retrieved from https://www.drpetter.se/project_sfxr.html
 *   Marks, A. (2017). *The Complete Guide to Game Audio*. CRC Press.

@@ -79,6 +79,11 @@ To truly internalize this harmonic language, one must go to the source. The foll
     *   **The Game Equivalent:** *Super Mario Bros. - "Underground Theme"*
     *   **The Connection:** YMO is the bridge between Kraftwerk and J-Pop. The sparse, strictly quantized basslines and tight melodic loops heavily influenced Koji Kondo’s minimalist approach to early NES limitations.
 
+### **The Workshop: Harmonic Foundations**
+
+*   **Technical Challenge (Programmer):** Load a high-fidelity "City Pop" or "Jazz Fusion" loop into your DAW. Apply a bit-crusher (8-bit) and a steep high-cut filter at 10kHz. Notice how these constraints immediately "game-ify" the sound and emphasize the melodic core.
+*   **Artistic Challenge (Composer):** **The J-Harmony Prompt.** Write a 4-bar melody using the **Yo scale** (Major Pentatonic: Root, 2nd, 4th, 5th, 6th). **Constraint:** Support the melody with a syncopated, active bassline that strictly uses 16th-note "slap" patterns to ground it in the Fusion aesthetic. **The Vibe:** Picture a bustling market in a mountain village at dawn.
+
 ### **References**
 *   Anatone, R. (Ed.). (2025). *The Music of Nobuo Uematsu in the Final Fantasy Series*. Intellect Books.
 *   Mitsuda, Y. (2025). *Chrono Trigger Main Theme Music Theory*. Reddit.

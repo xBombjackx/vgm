@@ -66,11 +66,16 @@ Replicating these distinct 8-bit sounds requires understanding their core differ
 
 By understanding these fundamental differences, you can choose the right tools and techniques to accurately recreate the vibrant, competitive soundscapes of the 8-bit console war.
 
+### **The Workshop: 8-Bit Counterpoint**
+
+*   **Technical Challenge (Programmer):** In a tracker, create a bassline where every note is immediately followed by a **Note Cut** command. Use the **Triangle** channel to feel how the "thump" creates rhythm without the need for volume envelopes.
+*   **Artistic Challenge (Composer):** **The Hero's Fanfare.** Write a 10-second opening fanfare. **Constraint:** Use only **two Pulse channels**. One must remain at a constant 12.5% duty cycle, while the other must sweep between 25% and 50% cycles to add timbral variety. **The Vibe:** Write this for the moment the sun rises over a castle's ramparts.
+
 ### **References**
 *   Battle of the Bits. (2025). *Dn-FamiTracker*. Retrieved from https://battleofthebits.com/lyceum/View/Dn-FamiTracker
 *   FamiStudio. (2025). *FamiStudio by BleuBleu*. Retrieved from https://bleubleu.itch.io/famistudio
 *   Furnace. (2025). *Furnace - the chiptune tracker*. Retrieved from https://tildearrow.org/furnace/
 *   Kondo, K. (2025). *The History of Nintendo Game Music (1983-2001)*. Shmuplations. Retrieved from https://shmuplations.com/nintendogamemusic/
 *   NesDev. (2025). *2A03 technical reference*. Retrieved from https://www.nesdev.org/2A03%20technical%20reference.txt
-*   Sega. (2025). *YM2612: The chip that powered music on the Mega Drive*. (Note: While primarily about YM2612, Yamaha's overview sometimes includes context on earlier Sega chips). Retrieved from https://au.yamaha.com/en/news_events/2021/1203_YM2612.html
+*   Sega. (2025). *YM2612: The chip that powered music on the Sega Genesis (Mega Drive)*. (Note: While primarily about YM2612, Yamaha's overview sometimes includes context on earlier Sega chips). Retrieved from https://au.yamaha.com/en/news_events/2021/1203_YM2612.html
 *   Sunsoft. (2025). *sunsoft bass*. Games I Made My Girlfriend Play. Retrieved from https://gimmgp.wordpress.com/tag/sunsoft-bass/

@@ -23,6 +23,7 @@ The first step in a DAW Hybrid Workflow is populating your synth rack with high-
     *   **mGB (with Hardware/Emulator):** As discussed in Chapter 8, the mGB ROM can turn a physical Game Boy into a MIDI module for sequencing from your DAW, for maximum authenticity (trash80, 2025).
 *   **For Multi-Chip/Wavetable:**
     *   While not VSTs, **Furnace** and **DefleMask** allow you to compose authentically and then export stems for mixing in your DAW. Some VSTs (e.g., Plogue Chipsynth OPS7) can approximate wavetable concepts through complex FM.
+    *   **Pro Tip (Wavetable Import):** Modern wavetable synths like **Serum** and **Vital** allow you to import custom waveforms. You can literally drag a 32-byte waveform data file (exported from a Game Boy or PC Engine tracker) directly into these plugins. By using these micro-waveforms as a "Sub-Oscillator" or a primary oscillator with all filtering disabled, you can achieve a perfectly authentic 8-bit timbre within a modern DAW environment.
 
 ### 13.2 Recreating the Hardware "Feel": DAW-Native Techniques
 
@@ -71,7 +72,7 @@ Not everyone has access to dedicated emulator VSTs. Fortunately, the "retro" sou
     2.  **EQ / Filter:** Apply a steep **Low-Pass Filter (LPF)** with a cutoff around **8 kHz**. This is the critical step to simulate the Gaussian Interpolation hardware filter.
     3.  **Simple Delay:** Set to **Time: <30ms** (very short), **Feedback: 40%**, **Wet: 25%**. This mimics the "False Reverb" used in games like *Final Fantasy VI*.
 
-#### **Recipe 2: The "Dirty FM" Chain (Genesis/Mega Drive)**
+#### **Recipe 2: The "Dirty FM" Chain (Genesis/Sega Genesis (Mega Drive))**
 *   **Goal:** Mimic the grit and DAC crossover distortion ("Ladder Effect") of the YM2612.
 *   **Source:** A digital FM Synth (e.g., Ableton Operator, Logic EFM1, FL Sytrus) using a basic 2-operator stack.
 *   **The Chain:**
@@ -81,7 +82,7 @@ Not everyone has access to dedicated emulator VSTs. Fortunately, the "retro" sou
 
 #### **Recipe 3: The "Pocket" Chain (Game Boy)**
 *   **Goal:** The sharp, focused, mono sound of the DMG-01.
-*   **Source:** A simple Square Wave generator (50% or 25% Pulse Width).
+*   **Source:** A simple Square Wave generator (50% or 25% Pulse-Width).
 *   **The Chain:**
     1.  **Utility / Imager:** Set **Width to 0% (Mono)**. This is non-negotiable for the core sound, though you can pan the final output hard left/right.
     2.  **EQ:** **High-Pass @ 150Hz** (Game Boy speakers had no sub-bass) and **Low-Pass @ 10-12 kHz** (to remove modern digital "air").
@@ -95,6 +96,11 @@ The final stage is crucial. A perfectly emulated chip sound can still sound "mod
 *   **Reference Tracks:** Use original game rips from trusted sources (e.g., VGMdb) as reference points for levels, EQ, and overall sonic character.
 
 By consciously imposing these historical constraints within the flexible environment of a modern DAW, you can create music that sounds genuinely authentic to the era, bridging the gap between pixel and progression.
+
+### **The Workshop: Bridging the Gap**
+
+*   **Technical Challenge (Programmer):** **The Hybrid Layer.** Layer an 8-bit pulse wave VST under a high-fidelity piano or string patch in your DAW. Mix them so they sound like a single **"Hybrid"** instrument with both modern "air" and retro "grit."
+*   **Artistic Challenge (Composer):** **The Lo-Fi Texture.** Take a high-fidelity instrument recording. **Constraint:** You must deliberately degrade it using bit-crushing and low-pass filtering until it becomes a background **"digital grit" pad**. Compose a 30-second chill-out track around this texture. **The Vibe:** Picture a rainy afternoon in a bedroom filled with old tech and fading polaroids.
 
 ### **References**
 *   Gearnews.com. (2025). *The Chip Sound of the 1990s in 2025 - This Gear is a Perfect Match!*. Retrieved from https://www.gearnews.com/chip-sound-of-the-1990s-in-2025-perfect-match/

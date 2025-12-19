@@ -42,6 +42,11 @@ Integrating tonal ambiguity and quartal harmony into your compositions requires 
 
 By consciously employing these techniques, you can move beyond Western harmonic conventions and tap into the unique emotional palette that defines the most iconic JRPG soundtracks.
 
+### **The Workshop: Designing the Dream**
+
+*   **Technical Challenge (Programmer):** In your DAW, use a **"Common Tone Pivot"** to modulate between two distant keys (e.g., C Major to E Major). Bridge the transition using a single sustained note that exists in both keys (the note **E**).
+*   **Artistic Challenge (Composer):** **Quartal Atmosphere.** Compose a 30-second "Dungeon" or "Sanctuary" theme. **Constraint:** You are forbidden from using standard Major or Minor triads. Every chord must be built using **stacked 4ths** (e.g., D-G-C). **The Vibe:** Imagine a character stepping into a sanctuary built of glass and light, where the air feels heavy with age. Focus on the "hollow" and "Ancient" vibe of the resulting texture.
+
 ### **References**
 *   Chino, K. (2025). *Japanese Music Harmony: The Fundamental Theory of Key Fluctuation*. Goodreads.
 *   Mitsuda, Y. (2025). *Chrono Trigger Main Theme Music Theory*. Reddit. Retrieved from https://www.reddit.com/r/gamemusic/comments/6vmwd8/chrono_trigger_main_theme_music_theory_how_to/

@@ -22,6 +22,8 @@ While the PlayStation and Sega Saturn embraced CD-ROMs and streaming audio (Red 
 *   **The Sequenced Finale (N64):** Sticking to cartridges with limited storage, the N64 could not afford to stream hours of music. Instead, it used the **Reality Signal Processor (RSP)** to synthesize audio in real-time using high-quality samples.
 *   **Why it Matters:** The N64 was effectively a "Super-Super SNES." The music was still *sequenced* (instructions telling the hardware what to play). This allowed for dynamic music systems—like the seamless transitions in *Banjo-Kazooie* or the tempo changes in *Super Mario 64*—that were impossible on the static CD tracks of the PlayStation. It was the last major console where the "Sound Programmer" ruled supreme.
 
+While the hardware was Japanese, some of the most sophisticated applications of this "Sequenced Finale" came from Western studios, most notably **Rareware**. Composers like **Grant Kirkhope** (*Banjo-Kazooie*) and **David Wise** (*Diddy Kong Racing*) treated the N64’s Reality Signal Processor (RSP) as a virtuosic instrument. They utilized its sequencing power to create highly interactive, "mickey-mousing" scores that shifted instruments and arrangements in real-time based on the player's location—a level of ludomusical integration that would not be seen again until the advent of sophisticated middleware like Wwise.
+
 ### 15.3 The Persistence of the Aesthetic
 
 However, the "Old School" style didn't die; it evolved. The strict melodic discipline forged in the fires of 3-channel limitations proved to be remarkably durable.
@@ -43,6 +45,11 @@ Your responsibility is not just to mimic the past, but to synthesize it.
 The hardware limitations of 1990 are gone, but the *creative discipline* they inspired is eternal. The silicon canvas is infinite now, but the most beautiful pictures are still painted by those who know exactly where to draw the lines.
 
 Go forth and create your own Golden Age.
+
+### **The Workshop: The Modern Synthesizer**
+
+*   **Technical Challenge (Programmer):** Place an **"8-bit" plugin** next to a modern high-fidelity one in your DAW. Match their volumes and A/B test them. Identify exactly which high frequencies are "missing" in the retro sound.
+*   **Artistic Challenge (Composer):** **The Modern Ghost.** Compose a 1-minute track in your DAW. **Constraint:** You must follow every hardware limitation of the **16-bit era** (8 voices maximum, low sample rates, no modern reverb) but utilize the high-fidelity clarity of a modern master. **The Vibe:** Imagine a modern city being haunted by the digitized ghosts of its past.
 
 ### **References**
 *   Collins, K. (2008). *Game Sound: An Introduction to the History, Theory, and Practice of Video Game Music and Sound Design*. MIT Press.

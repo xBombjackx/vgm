@@ -58,6 +58,11 @@ For the prosumer, there are several pathways to harness the Game Boy's unique so
     2.  At a lower volume.
 *   **The Result:** This creates a convincing slapback delay effect. Because the Game Boy has stereo sound, they often panned the "dry" signal Left and the "wet" (delayed) signal Right, creating a massive sense of space on a tiny handheld speaker.
 
+### **The Workshop: Drawing the Pocket Sound**
+
+*   **Technical Challenge (Programmer):** **The Wave-Drawn Lead.** In LSDj or a VST like Chipsynth Porta, **"draw"** a custom 32-step waveform. Try to create a "Soft Flute" (using a rounded, sine-like wave) and a "Sharp Saw" (using a jagged, stair-stepped ramp).
+*   **Artistic Challenge (Composer):** **Handheld Intimacy.** Write a short loop intended specifically for **headphones**. **Constraint:** Use **Hard Panning** (100% Left or 100% Right) to separate your melodic voices. Place the Lead in the Left ear and the Harmony in the Right to experience the spatial separation unique to handheld hardware. **The Vibe:** Imagine a rainy bus ride where the player is completely immersed in their own world.
+
 ### **References**
 *   Little Sound Dj. (2025). *Little Sound Dj*. Retrieved from https://www.littlesounddj.com/
 *   trash80. (2025). *mGB*. GitHub. Retrieved from https://github.com/trash80/mGB
