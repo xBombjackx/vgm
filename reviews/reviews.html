@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews: Pixel & Progression</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --accent: #3498db;
+            --bg: #f4f7f6;
+            --card-bg: #ffffff;
+            --text: #333333;
+            --star: #f1c40f;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 60px;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 40px;
+        }
+
+        h1 {
+            color: var(--primary);
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: #7f8c8d;
+        }
+
+        .review-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 30px;
+        }
+
+        .review-card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            transition: transform 0.2s ease;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .review-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+        }
+
+        .reviewer-info {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: var(--accent);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 1.2rem;
+            margin-right: 15px;
+        }
+
+        .reviewer-name {
+            font-weight: 700;
+            font-size: 1.1rem;
+        }
+
+        .reviewer-type {
+            font-size: 0.85rem;
+            color: #7f8c8d;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .rating {
+            color: var(--star);
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+        }
+
+        .review-title {
+            font-weight: 700;
+            margin-bottom: 10px;
+            color: var(--primary);
+        }
+
+        .review-body {
+            font-size: 0.95rem;
+            margin-bottom: 20px;
+            flex-grow: 1;
+        }
+
+        .feedback-section {
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            padding: 15px;
+            font-size: 0.9rem;
+        }
+
+        .feedback-item {
+            margin-bottom: 8px;
+        }
+
+        .feedback-label {
+            font-weight: 700;
+            margin-right: 5px;
+        }
+
+        .label-like { color: #27ae60; }
+        .label-dislike { color: #c0392b; }
+        .label-change { color: #e67e22; }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Pixel & Progression</h1>
+        <div class="subtitle">The Compositional and Technical Architecture of Japanese Game Music</div>
+        <p style="margin-top: 20px; font-weight: bold;">Average Rating: 4.2 / 5.0</p>
+    </header>
+
+    <div class="review-grid">
+
+        <!-- Persona 1 -->
+        <div class="review-card">
+            <div class="reviewer-info">
+                <div class="avatar" style="background-color: #e74c3c;">L</div>
+                <div>
+                    <div class="reviewer-name">Liam "Lofi" Jenkins</div>
+                    <div class="reviewer-type">Modern Beatmaker (FL Studio)</div>
+                </div>
+            </div>
+            <div class="rating">★★★★★</div>
+            <div class="review-title">Finally, the theory made sense.</div>
+            <div class="review-body">
+                I've been trying to make "Zelda vibes" beats for years but kept getting stuck on simple loops. Chapter 3 on the "Royal Road" progression completely unlocked my brain. I didn't realize I was starting on the wrong chord (I) this whole time.
+            </div>
+            <div class="feedback-section">
+                <div class="feedback-item"><span class="feedback-label label-like">Liked:</span> The "Emotional Mechanics" breakdown. It wasn't just dry theory.</div>
+                <div class="feedback-item"><span class="feedback-label label-dislike">Disliked:</span> The Tracker chapter (10) was scary. I'm never leaving the piano roll.</div>
+                <div class="feedback-item"><span class="feedback-label label-change">Change:</span> Add a section on how this relates to Lofi Hip Hop explicitly.</div>
+            </div>
+        </div>
+
+        <!-- Persona 2 -->
+        <div class="review-card">
+            <div class="reviewer-info">
+                <div class="avatar" style="background-color: #8e44ad;">S</div>
+                <div>
+                    <div class="reviewer-name">Sarah "HexQueen" Chen</div>
+                    <div class="reviewer-type">Hardcore Chiptuner (Furnace)</div>
+                </div>
+            </div>
+            <div class="rating">★★★★☆</div>
+            <div class="review-title">Surprisingly accurate for a generalist book.</div>
+            <div class="review-body">
+                Usually, books like this just say "it sounds retro." I was impressed that Chapter 5 actually explained the YM2612 Ladder Effect correctly and differentiated between Plogue and RYM2612. It respects the hardware.
+            </div>
+            <div class="feedback-section">
+                <div class="feedback-item"><span class="feedback-label label-like">Liked:</span> Recommending Furnace over DefleMask. This shows the author did current research.</div>
+                <div class="feedback-item"><span class="feedback-label label-dislike">Disliked:</span> Chapter 11 ("DAW Hybrid"). Using VSTs feels like cheating to me.</div>
+                <div class="feedback-item"><span class="feedback-label label-change">Change:</span> More deep dive into the Game Boy Noise Channel macros in LSDj.</div>
+            </div>
+        </div>
+
+        <!-- Persona 3 -->
+        <div class="review-card">
+            <div class="reviewer-info">
+                <div class="avatar" style="background-color: #2c3e50;">M</div>
+                <div>
+                    <div class="reviewer-name">Prof. Marcus Thorne</div>
+                    <div class="reviewer-type">Musicologist / Academic</div>
+                </div>
+            </div>
+            <div class="rating">★★★☆☆</div>
+            <div class="review-title">A solid introduction, but lacks rigor in places.</div>
+            <div class="review-body">
+                The concept of "Ludomusical Convergence" is compelling. I appreciate the nod to Kayano Chino's work on Key Fluctuation. However, the tone oscillates too wildly between academic analysis and producer colloquialisms ("Sega Grit").
+            </div>
+            <div class="feedback-section">
+                <div class="feedback-item"><span class="feedback-label label-like">Liked:</span> The historical framing of the "Sound Programmer" as auteur.</div>
+                <div class="feedback-item"><span class="feedback-label label-dislike">Disliked:</span> The citations are a bit sparse for a monograph.</div>
+                <div class="feedback-item"><span class="feedback-label label-change">Change:</span> Include more direct score analysis/transcriptions rather than just descriptions.</div>
+            </div>
+        </div>
+
+        <!-- Persona 4 -->
+        <div class="review-card">
+            <div class="reviewer-info">
+                <div class="avatar" style="background-color: #27ae60;">K</div>
+                <div>
+                    <div class="reviewer-name">Kaito Tanaka</div>
+                    <div class="reviewer-type">Indie Game Developer</div>
+                </div>
+            </div>
+            <div class="rating">★★★★★</div>
+            <div class="review-title">The Bible for my new RPG project.</div>
+            <div class="review-body">
+                I'm building a pixel-art RPG and couldn't figure out why my music sounded like a cheap toy. Chapter 6 (SNES) saved my life. The tip about the Gaussian filter and Low-Passing my samples made everything glue together instantly.
+            </div>
+            <div class="feedback-section">
+                <div class="feedback-item"><span class="feedback-label label-like">Liked:</span> The practical "Fakebit" tips in Chapter 11.</div>
+                <div class="feedback-item"><span class="feedback-label label-dislike">Disliked:</span> Nothing. It was exactly what I needed.</div>
+                <div class="feedback-item"><span class="feedback-label label-change">Change:</span> Maybe a chapter on Sound Effects (SFX)? This focuses mostly on music.</div>
+            </div>
+        </div>
+
+        <!-- Persona 5 -->
+        <div class="review-card">
+            <div class="reviewer-info">
+                <div class="avatar" style="background-color: #f39c12;">D</div>
+                <div>
+                    <div class="reviewer-name">Dave "RetroDad" Miller</div>
+                    <div class="reviewer-type">Casual Nostalgic Gamer</div>
+                </div>
+            </div>
+            <div class="rating">★★☆☆☆</div>
+            <div class="review-title">Way too technical.</div>
+            <div class="review-body">
+                I love Mario music and bought this expecting cool stories about Koji Kondo. Instead, I got hit with "Hexadecimal" and "FM Algorithms." I just wanted a history book, not a coding manual.
+            </div>
+            <div class="feedback-section">
+                <div class="feedback-item"><span class="feedback-label label-like">Liked:</span> Chapter 1 was a nice overview.</div>
+                <div class="feedback-item"><span class="feedback-label label-dislike">Disliked:</span> All the talk about trackers and VSTs. I don't make music.</div>
+                <div class="feedback-item"><span class="feedback-label label-change">Change:</span> Warn people on the cover that this is a textbook for musicians!</div>
+            </div>
+        </div>
+
+        <!-- Persona 6 -->
+        <div class="review-card">
+            <div class="reviewer-info">
+                <div class="avatar" style="background-color: #16a085;">E</div>
+                <div>
+                    <div class="reviewer-name">Elara Vance</div>
+                    <div class="reviewer-type">Conservatory Student (Composition)</div>
+                </div>
+            </div>
+            <div class="rating">★★★★★</div>
+            <div class="review-title">Connecting Debussy to Dragon Quest.</div>
+            <div class="review-body">
+                I've always felt that game music had classical roots, but Chapter 2 nailed it by tracing the lineage through Impressionism and Jazz Fusion. The explanation of Quartal Harmony in Chapter 4 was clearer than my actual college theory professor.
+            </div>
+            <div class="feedback-section">
+                <div class="feedback-item"><span class="feedback-label label-like">Liked:</span> The "Tonal Ambiguity" chapter.</div>
+                <div class="feedback-item"><span class="feedback-label label-dislike">Disliked:</span> The hardware chapters were a bit dense for a composer.</div>
+                <div class="feedback-item"><span class="feedback-label label-change">Change:</span> I wish there were more sheet music examples alongside the piano roll talk.</div>
+            </div>
+        </div>
+
+        <!-- Persona 7 -->
+        <div class="review-card">
+            <div class="reviewer-info">
+                <div class="avatar" style="background-color: #7f8c8d;">G</div>
+                <div>
+                    <div class="reviewer-name">Grit_Lord</div>
+                    <div class="reviewer-type">Hardware Modder / Hacker</div>
+                </div>
+            </div>
+            <div class="rating">★★★★☆</div>
+            <div class="review-title">Good, but missed the Arcade chips.</div>
+            <div class="review-body">
+                Excellent coverage of the console chips. The explanation of the NES DPCM "Pop" bug was spot on. However, ignoring the Yamaha YM2151 (used in X68000 and Arcades) feels like a missed opportunity for a book about "Japanese" game music.
+            </div>
+            <div class="feedback-section">
+                <div class="feedback-item"><span class="feedback-label label-like">Liked:</span> Detailed breakdown of the MSX SCC chip. Very niche, very cool.</div>
+                <div class="feedback-item"><span class="feedback-label label-dislike">Disliked:</span> No arcade coverage!</div>
+                <div class="feedback-item"><span class="feedback-label label-change">Change:</span> Add a chapter on the Sega Model 1 or System 16 sound.</div>
+            </div>
+        </div>
+
+        <!-- Persona 8 -->
+        <div class="review-card">
+            <div class="reviewer-info">
+                <div class="avatar" style="background-color: #d35400;">S</div>
+                <div>
+                    <div class="reviewer-name">Sophie "Vapor" X</div>
+                    <div class="reviewer-type">Synthwave / Future Funk Artist</div>
+                </div>
+            </div>
+            <div class="rating">★★★★☆</div>
+            <div class="review-title">Great production tips.</div>
+            <div class="review-body">
+                I don't make chiptune, but I make 80s-inspired pop. The mixing tips in Chapter 11 regarding "Dynamic Range" and "EQ Profiling" were super useful for getting that vintage texture without sounding cheesy.
+            </div>
+            <div class="feedback-section">
+                <div class="feedback-item"><span class="feedback-label label-like">Liked:</span> The "Fakebit" philosophy.</div>
+                <div class="feedback-item"><span class="feedback-label label-dislike">Disliked:</span> I wish it came with preset packs.</div>
+                <div class="feedback-item"><span class="feedback-label label-change">Change:</span> Add a download link for the FM patches discussed in Chapter 5.</div>
+            </div>
+        </div>
+
+        <!-- Persona 9 -->
+        <div class="review-card">
+            <div class="reviewer-info">
+                <div class="avatar" style="background-color: #2980b9;">M</div>
+                <div>
+                    <div class="reviewer-name">Max Sterling</div>
+                    <div class="reviewer-type">Orchestral Composer</div>
+                </div>
+            </div>
+            <div class="rating">★★★☆☆</div>
+            <div class="review-title">Interesting history, limited application.</div>
+            <div class="review-body">
+                I found the SNES chapter fascinating—the idea of sacrificing sample quality for reverb is bold. But as someone who works with full Kontakt libraries, going back to 3 channels feels too restrictive.
+            </div>
+            <div class="feedback-section">
+                <div class="feedback-item"><span class="feedback-label label-like">Liked:</span> The David Wise case study.</div>
+                <div class="feedback-item"><span class="feedback-label label-dislike">Disliked:</span> The 8-bit chapters felt like toys.</div>
+                <div class="feedback-item"><span class="feedback-label label-change">Change:</span> More focus on the transition to CD audio and Red Book (Chapter 12 was too short).</div>
+            </div>
+        </div>
+
+        <!-- Persona 10 -->
+        <div class="review-card">
+            <div class="reviewer-info">
+                <div class="avatar" style="background-color: #c0392b;">C</div>
+                <div>
+                    <div class="reviewer-name">Chiptune_Noob_99</div>
+                    <div class="reviewer-type">Absolute Beginner</div>
+                </div>
+            </div>
+            <div class="rating">★★★★☆</div>
+            <div class="review-title">Brain melting, but in a good way.</div>
+            <div class="review-body">
+                I've never written a song before. This book is intense. The Hexadecimal stuff made my head hurt, but after re-reading Chapter 10, I finally installed DefleMask on my iPad and made my first beep!
+            </div>
+            <div class="feedback-section">
+                <div class="feedback-item"><span class="feedback-label label-like">Liked:</span> It assumes I'm smart and doesn't dumb it down too much.</div>
+                <div class="feedback-item"><span class="feedback-label label-dislike">Disliked:</span> Needs more pictures of the software interfaces.</div>
+                <div class="feedback-item"><span class="feedback-label label-change">Change:</span> Make a video companion series!</div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
